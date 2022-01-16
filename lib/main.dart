@@ -75,7 +75,7 @@ class HomePage extends StatelessWidget {
                         decoration: InputDecoration(
                           filled: true,
                           fillColor: Colors.white.withOpacity(1),
-                          hintText: 'Enter Length',
+                          hintText: 'ENTER LENGTH',
                         ),
                       )
                   ),
@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
                         decoration: InputDecoration(
                           filled: true,
                           fillColor: Colors.white.withOpacity(1),
-                          hintText: 'Enter Girth',
+                          hintText: 'ENTER GIRTH',
                         ),
                       )
                   ),
@@ -99,7 +99,7 @@ class HomePage extends StatelessWidget {
               ),
 
               Padding(
-                padding: const EdgeInsets.only(bottom: 20.0),
+                padding: const EdgeInsets.only(bottom: 30.0),
                 child: ElevatedButton(
                   child: Text('CALCULATE'),
                   onPressed: () {
